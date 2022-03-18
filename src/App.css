@@ -1,0 +1,45 @@
+body {
+  background-color: rgb(104, 203, 228);
+  color: white;
+}
+.container{
+  width: 50rem;
+}
+
+input[type="text"] {
+  border: 1px solid black;
+  background: transparent;
+  color: white;
+}
+
+input[type="text"]:focus {
+  border: none;
+  background: transparent;
+  color: white;
+}
+.addBtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#taskList{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tasks{
+  display: flex;
+  align-items: center;
+}
+.count{
+  color: black;
+  padding: 0 5px;
+  margin: 0 0 0 7px;
+}
